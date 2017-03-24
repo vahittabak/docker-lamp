@@ -8,7 +8,7 @@ services:
       - ./web/public_html:/var/www/html
       - ./web/log:/var/log/apache2
     ports:
-      - "8090:80"
+      - "80:80"
     networks:
       - docker_lamp
     depends_on:
